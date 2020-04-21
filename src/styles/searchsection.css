@@ -1,0 +1,47 @@
+.friends, h3, .search{
+    position: relative;
+}
+.friends{
+    
+    top: 30%;
+}
+
+h3{
+    top: 35%;
+    font-weight: 400;
+    font-size: 0.75em;
+}
+
+.search{
+    margin: 20px 0;
+    width: 800px;
+    top: 35%;
+}
+.search > input{
+    width: 70%;
+    padding: 16px;
+    border: 0;
+    color: white;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    background-color: transparent;
+}
+.search > input::placeholder{
+    color: white;
+}
+.search > input:focus{
+    outline: 0;
+    border-bottom: 1px solid white;
+}
+
+.search > button{
+    width: 10%;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 10px;
+    background-color: #b17248;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+}

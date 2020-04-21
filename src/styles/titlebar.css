@@ -1,0 +1,13 @@
+title-bar{
+    display: block;
+    margin: 10px;
+}
+title-bar .content::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff313;
+    margin: 0 5px;
+}
